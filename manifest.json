@@ -1,0 +1,19 @@
+{
+  "name": "FloraLux — Доставка цветов",
+  "short_name": "FloraLux",
+  "description": "Заказ и быстрая доставка свежих цветов по Казахстану",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#faf8f5",
+  "theme_color": "#2c6e49",
+  "icons": [
+    {
+      "src": "images/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
