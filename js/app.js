@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Delivery info block
         const deliveryInfoText = document.getElementById('deliveryInfoText');
         if (deliveryInfoText) {
-            deliveryInfoText.textContent = `Доставка по Москве — ${formatPrice(SHOP_CONFIG.deliveryCost)}. Бесплатно при заказе от ${formatPrice(SHOP_CONFIG.freeDeliveryFrom)}. Минимальный заказ — ${formatPrice(SHOP_CONFIG.minOrder)}.`;
+            deliveryInfoText.textContent = `Доставка по Городу — ${formatPrice(SHOP_CONFIG.deliveryCost)}. Бесплатно при заказе от ${formatPrice(SHOP_CONFIG.freeDeliveryFrom)}. Минимальный заказ — ${formatPrice(SHOP_CONFIG.minOrder)}.`;
         }
 
         // Social Links
